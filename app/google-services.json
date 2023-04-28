@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "424057890243",
+    "project_id": "comlionsmatchgamesport",
+    "storage_bucket": "comlionsmatchgamesport.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424057890243:android:d86436bdf5bbd4963cc976",
+        "android_client_info": {
+          "package_name": "com.lionsmatchgame.sport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424057890243-gapk4dsp2s6ld8q087t4sqglvg2kn1s6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD61buEhaj2uM9mdYLCLOHqlKeaQTsZ7fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424057890243-gapk4dsp2s6ld8q087t4sqglvg2kn1s6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A4D4E"
+    tools:context=".GamesActivity">
+
+    <TableLayout
+
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:stretchColumns="0,1,2,3"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        tools:ignore="MissingConstraints">
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF"
+
+            >
+
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card2"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card4"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_margin="1dp"
+            android:layout_weight="0"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/card5"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="0"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card6"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="1"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card7"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="2"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+
+            <ImageView
+                android:id="@+id/card8"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_column="3"
+                android:layout_margin="3dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:visibility="visible"
+                app:srcCompat="@drawable/image1" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <!--    <TableLayout-->
+<!--        android:id="@+id/tableLayout1"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:gravity="center"-->
+<!--        android:stretchColumns="0,1,2,3"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/textView6"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/textView6"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/textView6"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/progressBar">-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_weight="0">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card1"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card2"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card3"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card4"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="3"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_weight="0">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card5"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card6"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card7"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card8"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="3"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_weight="0">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card9"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card10"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card11"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card12"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="3"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_weight="0">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card13"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card14"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card15"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card16"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="3"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+<!--        </TableRow>-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_margin="1dp"-->
+<!--            android:layout_weight="0">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card17"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card18"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card19"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="2"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/card20"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="80dp"-->
+<!--                android:layout_column="3"-->
+<!--                android:layout_margin="3dp"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:gravity="center"-->
+<!--                app:srcCompat="@drawable/image1" />-->
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/backgraund_text"
+        android:fontFamily="@font/krub_regular"
+        android:gravity="center"
+        android:text="BACK TO MENU"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/krub_regular"
+        android:gravity="center"
+        android:text="TIME LEFT: 30 seconds"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="3000"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/krub_regular"
+        android:gravity="center"
+        android:text="LEVEL COMPLETED!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tableLayout"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
