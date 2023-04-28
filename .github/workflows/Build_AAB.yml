@@ -1,5 +1,5 @@
 name: Build AAB
-on: push
+on: [workflow_dispatch]
 
 env:
   APP_NAME: "com.lionsmatchgame.sport"
